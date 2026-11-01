@@ -1,0 +1,576 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-home {
+    background-color: #A3DCF9;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 947px;
+}
+
+.frame-sky {
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+.frame-sky img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.ava-menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.ava-menu-content {
+    width: 100%;
+    height: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 10px;
+}
+
+.ava-menu-logo {
+    width: 187px;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+.ava-menu-logo-img {
+    width: 187px;
+    height: 56px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.logo0 {
+    position: absolute;
+    left: 0px;
+}
+
+.logo1 {
+    position: absolute;
+    left: 0px;
+}
+
+.ava-menu-logo-search {
+    background-color: white;
+    border-radius: 10px;
+    width: 108px;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ava-menu-menu {
+    width: 100%;
+    max-width: 500px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.ava-menu-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ava-menu-menu li {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.ava-menu-menu a  {
+    text-decoration: none;
+}
+
+.ava-menu-menu-nav1 {
+    width: 100%;
+    max-width: 264px;
+    height: auto;
+}
+
+.ava-menu-menu-nav2 {
+    width: 100%;
+    max-width: 146px;
+    height: 21px;
+}
+
+.main-frame {
+    width: 100%;
+    height: auto;
+}
+
+.foot-dog {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    max-width: 316px;
+    height: auto;
+
+}
+
+.foot-dog img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.great-info {
+    position: absolute;
+    z-index: 2;
+    top: 7rem;
+    left: 8rem;
+    width: 30vw;
+    max-width: 600px;
+    height: auto;
+    max-height: 350px;
+
+}
+
+.great-info h1 {
+    font-size: 5rem;
+    max-width: 583px;
+    height: auto;
+}
+
+.great-info p {
+    font-family: 'Roboto';
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.great-info-welcome {
+    width: 100%;
+    max-width: 204px;
+    height: auto;
+}
+
+.great-info-welcome p {
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.shop-now {
+    background-color: rgb(52, 40, 215);
+    max-width: 185px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 2rem;
+}
+
+.shop-now button {
+    background: none;
+    width: 6rem;
+    height: 1.75rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    border: none;
+}
+
+
+.dog-img {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 10rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bowl-dog {
+    position: absolute;
+    width: 100%;
+    max-width: 297px;
+    height: auto;
+}
+
+.bowl-dog img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: fill;
+}
+
+.dog-ava {
+    width: 100%;
+    max-width: 442px;
+    height: auto;
+}
+
+
+.dog-ava img {
+    width: 100%;
+    max-width: 416px;
+    height: auto;
+    position: absolute;
+    object-fit: fill;
+}
+
+.dog-mess {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.dog-mess img {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.image-illusion {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image-illusion img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.shop-categories {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.shop-categories-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.shop-categories-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin: 0;
+    overflow: hidden;
+}
+
+.prev-next {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.shop-categories-product {
+    width: 200px;
+    height: 229px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.shop-categories-product img {
+    width: auto;
+    max-width: 180px;
+    height: auto;
+}
+
+.best-sellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.best-sellers-list {
+    width: 100%;
+    height: auto;
+    max-width: 1100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.best-seller-products {
+    width: 100%;
+    max-width: 252px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.best-seller-products img {
+    width: 100%;
+    height: auto;
+
+}
+
+.best-seller-products-price {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.best-seller-price-info {
+    font-size: 20px;
+    gap: 8px;
+}
+
+.best-seller-product-name {
+    font-weight: 700;
+}
+
+.best-seller-products-price img {
+    width: 89px;
+    height: 15px;
+}
+
+.best-seller-price-info img {
+    width: 89px;
+    height: 15px;
+} 
+
+.logo-cart-shop {
+    position: absolute;
+    right: 1rem;
+}
+
+
+.logo-cart-shop img {
+    width: 28px;
+    height: 26px;
+    position: absolute;
+    right: 0px;
+
+}
+
+.best-seller-price-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+
+}
+
+.save-off {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem auto; 
+}
+
+.save-off img {
+    max-width: 45%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.new-of-us {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.new-of-us-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.new-of-us-product {
+    width: 252px;
+    height: 365px;
+    position: relative;
+}
+
+.new-of-us-ava {
+    width: 100%;
+    height: auto;
+}
+
+.new-of-us-info {
+    width: 100%;
+    max-width: 254px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-of-us-info p {
+    font-weight: 700;
+    margin: 8px;
+}
+
+.new-of-us-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0px;
+    height: 1.75rem;
+    margin: 0;
+    padding: 0;
+}
+
+.star {
+    width: 89px;
+    height: 15px;
+    padding: 0px;
+}
+
+.new-of-us-cart {
+    width: 100%;
+    max-width: 28px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+}
+
+.new-of-us-cart img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.pet-store img{
+    width: 100%;
+    height: auto;
+    margin-top: 69px;
+}
+
+.premium-products {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 167px;
+    margin-bottom: 47px;
+
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .product-hidden {
+        display: none;
+    }
+}

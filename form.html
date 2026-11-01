@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML forms in 10+ minutes</title>
+</head>
+
+<body>
+    <form action="index.html" method="POST">
+
+        <label for="username">Username: </label>
+        <input type="text" id="username" minlength="6" maxlength="15" required placeholder="your name"> <br>
+
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" minlength="4" max="10" required placeholder="your password"> <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" required placeholder="your email"> <br>
+
+        <label for="tel">Phone: </label>
+        <input type="tel" id="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+
+        <label for="bday">Birthday: </label>
+        <input type="date" id="bday"> <br>
+
+        <label for="quantity">Quantity: </label>
+        <input type="number" id="quantity" min="0" max="10"> <br>
+
+        <label for="title">Title: </label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr.">
+
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms.">
+
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD."> <br>
+
+        <label for="payment">Payment: </label>
+        <select id="payment">
+            <option value="shopeepay">shopeepay</option>
+            <option value="tiktokshop">tiktokshop</option>
+            <option value="visa">Visa</option>
+        </select>
+        <br>
+
+        <label for="subcribe">Subcribe: </label>
+        <input type="checkbox" id="subcribe"> <br>
+
+        <label for="comment">Comment: </label>
+        <textarea id="comment"></textarea>
+        <br>
+
+        <label for="file">File: </label>
+        <input type="file" id="file" accept="image/png, image/jpeg">
+
+
+            <br>
+
+            <input type="reset">
+            <input type="submit">
+    </form>
+</body>
+
+</html>

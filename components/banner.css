@@ -1,0 +1,136 @@
+/* Xóa bỏ margin và padding mặc định của toàn bộ trang */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.ava-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #46C9FF;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.ava-menu-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 1rem;
+}
+
+.ava-menu-logo {
+    width: 100%;
+    max-width: 1230px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ava-menu-logo-img {
+    width: 100%;
+    max-width: 187px;
+    height: auto;
+}
+
+.ava-menu-logo-search {
+    display: flex;
+    width: 108px;
+    height: 31px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.ava-menu-logo-search p {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: regular;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.ava-menu-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.ava-menu-menu-ava1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ava-menu-menu-nav1 ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.ava-menu-menu-nav1 li {
+    font-size: 17px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.ava-menu-menu a {
+    text-decoration: none;
+}
+
+.ava-menu-menu-ava2 {
+    display: flex;
+    width: 146px;
+    height: 21px;
+}
+
+.ava-menu-menu-nav2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 30px;
+    width: 146px;
+
+}
+
+.ava-menu-menu-nav2 li {
+    font-size: 17px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+@media (max-width: 850px) {
+    .ava-menu-content {
+        height: 111px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .ava-menu-menu {
+        display: none;
+    }
+}

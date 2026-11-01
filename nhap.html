@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nhap.css">
+    <title>Practise</title>
+</head>
+<body>
+    <form action="/submit-form" method="POST" class="custom-form">
+        <div class="form-group">
+            <label for="username">Username: </label>
+            <input type="text" id="username" placeholder="Your name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Your email">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="Your password">
+        </div>
+
+        <div class="form-group">
+            <label for="city">City: </label>
+            <select name="city" id="city">
+                <option value="hn">Ha Noi</option>
+                <option value="hcm">TP. Ho Chi Minh</option>
+                <option value="dn">Da Nang</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="bio">Your information: </label>
+            <textarea name="bio" id="bio" placeholder="Talk about yourself..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit</button>
+
+        <div class="radio-section">
+            <label for="" class="section-title">Trinh do hoc van</label>
+
+            <label class="radio-label">
+                <input type="radio" name="education" value="highschool">
+                <span>Trung hoc pho thong</span>
+            </label>
+
+            <label class="radio-label">
+                <input type="radio" name="education" value="university">
+                <span>Dai hoc/ Cao dang</span>
+            </label>
+
+            <label class="radio-label">
+                <input type="radio" name="education" value="other">
+                <span>Khac</span>
+            </label>
+        </div>
+
+        <div class="checkbox-section">
+            <label class="checkbox-form">
+                <label class="checkbox-label">
+                    <input type="checkbox" >
+                </label>
+            </label>
+        </div>
+    </form>
+</body>
+
+</html>

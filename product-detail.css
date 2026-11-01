@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.brown-dog {
+    width: 100%;
+    height: auto;
+    margin-top: 9rem;
+}
+
+.brown-dog img {
+    width: 100%;
+    height: auto;
+    display: block;
+        object-fit: fill;
+
+}
+
+.description-product {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+
+}
+
+.image-healthy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.dog-eat {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dog-eat img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-healthy-product {
+    margin: 0;
+    padding: 0;
+}
+
+.button-add-buy {
+    width: 351px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button-add-black {
+    width: 164px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    background-color: #353535;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.button-buy-blue {
+    width: 164px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    background-color: #46C9FF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.healthy-pet {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.healthy-long-text {
+    width: 100%;
+    max-width: 548px;
+    height: auto;
+    font-weight: 300;
+    font-style: light;
+    font-size: 20px;
+}
+
+.heathy-sku {
+    font-weight: 400;
+    font-size: 20px;
+    font-style: Regular;
+}
+
+.healthy-money {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    color: #FF0000;
+}
+
+.benefits-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.benefits-title,
+.description-title {
+    width: 215px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-size: bold;
+    box-shadow: 4px 4px 4px 0px #00000040;
+    margin-bottom: 1rem;
+}
+
+.benefits-detail,
+.description-detail {
+    width: 100%;
+    max-width: 596px;
+    height: auto;
+}
+
+.related-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.related-products p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.related-products-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1188px;
+    height: auto;
+}
+
+.related-products-list {
+    width: 100%;
+    max-width: 1188px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+}
+
+.related-products-detail {
+    width: 252px;
+    height: 365px;
+    position: relative;
+    z-index: 0;
+}
+
+.product-new {
+    width: 67px;
+    height: 23px;
+    background-color: #116BF2;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+
+.product-info {
+    width: 254px;
+    height: 73.92px;
+    position: absolute;
+    left: 19px;
+    bottom: 21.08px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.cart-icon-product {
+    position: absolute;
+    left: 212px;
+    bottom: 16px;
+
+}
+
+.product-info p {
+    font-size: 1.75rem;
+    width: 100%;
+    height: auto;
+    margin: 1px;
+}
+
+
+.product-info img {
+    width: 89px;
+    height: auto;
+}
+
+.review-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.review-comment>p {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.comment-image-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.comment-image-detail {
+    width: 100%;
+    max-width: 1105px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.customer-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.customer-ava {
+    width: 100%;
+    max-width: 110px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.customer-ava img {
+    width: 100%;
+    max-width: 110px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.like-really {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.like-really img {
+    width: 13px;
+    height: 13px;
+}
+
+.like-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image-list img {
+    width: 100%;
+    max-width: 148px;
+    height: auto;
+}
+
+@media (max-width: 900px) {
+    .image-healthy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-hidden {
+        display: none;
+    }
+
+    .comment-image-detail {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .image-list {
+        align-self: flex-end;
+    }
+    .brown-dog {
+        display: none;
+    }
+    .description-product {
+        margin-top: 8rem;
+    }
+}

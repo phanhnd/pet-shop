@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.payment-success-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 2rem;
+}
+
+.x-btn {
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.payment-success-content img {
+    margin-bottom: 2rem;
+}
+
+.payment-content-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.payment-content-detail > p {
+    max-width: 170px;
+    height: auto;
+    text-align: center;
+}
+
+.payment-info-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.continue-btn {
+    width: 100%;
+    max-width: 227px;
+    height: 45px;
+    background-color: #1C91E7;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
